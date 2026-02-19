@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaleur Durable|持続する暖かさ</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+
+    <meta property="og:image" content="images/ogp.jpg" />
+
+    <!-- Favicons -->
+    <link rel="icon" href="./favicon/favicon.svg" type="image/svg+xml">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Orelega+One&family=Sawarabi+Gothic&family=Zen+Kurenaido&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500&display=swap" rel="stylesheet">
+
+    <script src="js/hbg.js" defer></script>
+</head>
+
+<body id="back_images">
+    <div class="loading">
+        <img class="loading__logo" src="images/logo.png" alt="Chaleur Durable|持続する暖かさ">
+    </div>
+
+    <header id="header">
+        <div class="headerimg_pc">
+            <!-- ヘッダー（PC版）-->
+            <div class="headerimg_01">
+                <img src="images/headerimg_pc.png" alt="バッグに忍ばせる、私だけの“マイ暖房”お湯不要！ぬくもりシート誕生">
+            </div>
+
+            <!-- ヘッダー（スマホ版）-->
+            <div class="headerimg_02">
+                <img src="images/headerimg_sp.png" alt="バッグに忍ばせる、私だけの“マイ暖房”お湯不要！ぬくもりシート誕生">
+            </div>
+        </div>
+
+        <div class="header_menu_sp">
+            <h1 class="logo">
+                <a href="#top"><img src="images/logo.png" alt="Chaleur Durable|持続する暖かさ"></a>
+            </h1>
+            <div id="nav-wrapper" class="nav-wrapper">
+                <div class="hamburger" id="js-hamburger">
+                    <span class="hamburger__line hamburger__line--1"></span>
+                    <span class="hamburger__line hamburger__line--2"></span>
+                    <span class="hamburger__line hamburger__line--3"></span>
+                </div>
+                <nav class="sp-nav">
+                    <ul>
+                        <li class="menu"><a href="#problem">こんなお悩みありませんか？</a></li>
+                        <li class="menu"><a href="#inconvenience">従来の湯たんぽのイメージ</a></li>
+                        <li class="menu"><a href="#recommendation">こんな方におススメ</a></li>
+                        <li class="menu"><a href="#point">選ばれる5つの理由</a></li>
+                        <li class="menu"><a href="#specification_outer">商品仕様</a></li>
+                        <li class="menu"><a href="#voice_outer">お客様の声</a></li>
+                        <li class="menu"><a href="#q-a">Q&amp;A</a></li>
+                        <li class="menu"><a href="#review_present_outer">レビュープレゼント</a></li>
+                        <li class="menu"><a href="#guarantee_outer">1年間保証</a></li>
+                        <li class="menu"><a href="#message_outer">メッセージ</a></li>
+                    </ul>
+                    <div class="application_img"><a href="#review_present_outer"><img src="images/application_img.jpg"
+                                alt="レビュープレゼント"></a></div>
+                </nav>
+                <div class="black-bg" id="js-black-bg"></div>
+            </div>
+            <div class="info_btn_outer">
+                <div class="info_btn_b">
+                    <a href="#" target="_blank">
+                        お申込みはこちら
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main id="main">
+        <section id="left">
+            <div class="menu_outer_left">
+                <h1 class="logo">
+                    <a href="#top"><img src="images/logo.png" alt="Chaleur Durable|持続する暖かさ"></a>
+                </h1>
+                <nav class="menu_inner">
+                    <ul>
+                        <li class="menu"><a href="#problem">こんなお悩み<br class="pc-only">ありませんか？</a></li>
+                        <li class="menu"><a href="#inconvenience">従来の湯たんぽの<br class="pc-only">イメージ</a></li>
+                        <li class="menu"><a href="#recommendation">こんな方におススメ</a></li>
+                        <li class="menu"><a href="#point">選ばれる5つの理由</a></li>
+                        <li class="menu"><a href="#specification_outer">商品仕様</a></li>
+                        <li class="menu"><a href="#voice_outer">お客様の声</a></li>
+                        <li class="menu"><a href="#q-a">Q&amp;A</a></li>
+                        <li class="menu"><a href="#review_present_outer">レビュープレゼント</a></li>
+                        <li class="menu"><a href="#guarantee_outer">1年間保証</a></li>
+                        <li class="menu"><a href="#message_outer">メッセージ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <section id="center">
+
+            <!-- problem -->
+            <section id="problem" class="problem">
+                <h2 class="kiwi-maru-medium pc_h2">こんなお悩みありませんか？</h2>
+                <div class="problem_list">
+                    <ul>
+                        <li class="h2_sub">「足元が冷えて、<br>仕事や家事に<br class="sp-only">集中できない<span class="ls01">・・・</span>」
+                        </li>
+                        <li class="h2_sub">「従来の湯たんぽは、<br>お湯を沸かすのが<br class="sp-only">面倒だし重すぎる」</li>
+                        <li class="h2_sub">「電気代が高騰<span class="ls01">・・・</span><br>暖房を一日中つけるのは<br class="sp-only">気が引ける」
+                        </li>
+                        <li class="h2_sub">「外出先や車内でも、<br>もっと手軽に暖まりたい」</li>
+                    </ul>
+                </div>
+            </section>
+            <!-- /problem -->
+
+            <!-- inconvenience -->
+            <section id="inconvenience" class="inconvenience">
+                <h2 class="kiwi-maru-medium pc_h2">従来の湯たんぽのイメージ</h2>
+                <div class="inconvenience_outer">
+                    <ul class="inconvenience_list">
+                        <li class="list01 sawarabi-gothic-regular"><img src="images/check.png" class="pl12"
+                                alt="チェック">準備と後片付けの手間</li>
+                        <li class="list01 sawarabi-gothic-regular"><img src="images/check.png" class="pl12"
+                                alt="チェック">重い</li>
+                        <li class="list01 sawarabi-gothic-regular"><img src="images/check.png" class="pl12"
+                                alt="チェック">エコではない</li>
+                        <li class="list01 sawarabi-gothic-regular"><img src="images/check.png" class="pl12"
+                                alt="チェック">衛生管理と劣化</li>
+                    </ul>
+                    <div class="inconvenience_img">
+                        <img src="images/inconvenience_img01.png" alt="従来の湯たんぽのイメージ">
+                    </div>
+                </div>
+                <div class="zen-kurenaido-regular question">
+                    不便に思った<br class="sp-only">こと<br class="pc-only"><br class="tb-only">ありませんか？
+                </div>
+            </section>
+            <!-- /inconvenience -->
+
+            <!-- recommendation -->
+            <section id="recommendation" class="recommendation">
+                <h2 class="kiwi-maru-medium pc_h2">こんな方におススメ</h2>
+                <ul class="recommendation_list">
+                    <li class="h2_sub"><span class="conspicuous">冷え性</span>で、<br class="sp-only">冬の寒さが本当につらい方</li>
+                    <li class="h2_sub"><span class="conspicuous">家事やリモートワーク中</span>に、<br class="sp-only">効率よくこなしたい方</li>
+                    <li class="h2_sub"><span class="conspicuous">オフィスや車内</span>で、<br class="sp-only">自分だけ快適な温度にしたい方</li>
+                    <li class="h2_sub"><span class="conspicuous">キャンプや旅行</span>など、<br class="sp-only">外でも身軽に楽しみたい方</li>
+                </ul>
+                <div class="recommendation_img_outer">
+                    <!-- recommendation（PC版）-->
+                    <div class="recommendation_img_01">
+                        <img src="images/recommendation_img01.png" alt="冷え性、家事やリモートワーク中、オフィスや車内、キャンプや旅行におススメ">
+                    </div>
+
+                    <!-- recommendation（スマホ版）-->
+                    <div class="recommendation_img_02">
+                        <img src="images/recommendation_img_sp01.png" alt="冷え性、家事やリモートワーク中、オフィスや車内、キャンプや旅行におススメ">
+                    </div>
+                </div>
+            </section>
+            <!-- /recommendation -->
+
+            <!-- info -->
+            <section class="info mt-info">
+                <div class="pc_info_inner">
+                    <div class="pc_info_left">
+                        <h3 class="ibm-plex-mono-regular">本体のみ</h3>
+                        <img src="images/info_img.png" alt="本体のみ">
+                        <p class="info_left_pay">
+                            <span class="orelega-one-regular payBig">2,580</span>円（税込）
+                        </p>
+                        <div class="info_btn anim-box mov">
+                            <a href="#" target="_blank">お申込みはこちら</a>
+                        </div>
+                    </div>
+                    <div class="pc_info_right">
+                        <h3>バッテリーセット</h3>
+                        <img src="images/info_img_set.png" alt="バッテリーセット">
+                        <p class="info_right_pay">
+                            <span class="orelega-one-regular payBig">3,580</span>円（税込）
+                        </p>
+                        <div class="info_btn anim-box mov">
+                            <a href="#" target="_blank">お申込みはこちら</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /info -->
+
+            <!-- point -->
+            <section id="point" class="point">
+                <h2 class="kiwi-maru-medium pc_h2">
+                    選ばれる<span class="kiwi-maru-medium poitBig">5</span>つの理由
+                </h2>
+
+                <!-- point1 -->
+                <div class="point1_outer">
+                    <div class="point_left_outer flex-row mt-60">
+                        <div class="point_left_img">
+                            <img src="images/point_heading01.png" alt="1 高機能">
+                        </div>
+
+                        <div class="point_left_text_outer waku_ml">
+                            <h3 class="ibm-plex-mono-bold pc_h3">
+                                次世代素材ーグラフェン繊維ヒーター採用で爆速温め
+                            </h3>
+                            <p class="ibm-plex-mono-regular pc_p">
+                                <span class="ibm-plex-mono-bold attention">薄くて軽い</span>、でも圧倒的にあったか 紙のように薄く、驚くほど軽い<span
+                                    class="ls01">・・・</span><br>それなのに、スイッチを入れた瞬間、熱が全身へ一気に広がります
+                            </p>
+                        </div>
+                    </div>
+                    <div class="point1_sub_outer01">
+
+                        <div class="point1_sub_inner">
+                            <div class="point_left_text_outer mb24">
+                                <h3 class="ibm-plex-mono-bold pc_h3">
+                                    熱を閉じ込める、三層構造
+                                </h3>
+
+                                <p class="ibm-plex-mono-regular pc_p">
+                                    内層の特殊素材が、発生した熱をギュッと凝縮<br>
+                                    逃さず蓄えるから、温かさが持続します
+                                </p>
+                            </div>
+
+                            <div class="point_left_text_outer">
+                                <h3 class="ibm-plex-mono-bold pc_h3">
+                                    冷気の侵入を完全遮断
+                                </h3>
+
+                                <p class="ibm-plex-mono-regular pc_p">
+                                    外からの冷たい空気をブロック!<br>
+                                    どんなに寒い場所でも、あなたを魔法の温もりで包み込みます
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="point1_sub_outer01-1">
+                        <img src="images/point1_sub_outer01.png" alt="熱を閉じ込める、三層構造、冷気の侵入を完全遮断">
+                    </div>
+                </div>
+                <div class="point1_sub_outer02">
+                    <div class="point1_sub_inner">
+                        <div class="point_left_text_outer mb40">
+                            <h3 class="ibm-plex-mono-bold pc_h3">
+                                理想の温度をキープ
+                            </h3>
+
+                            <p class="ibm-plex-mono-regular pc_p mb24">
+                                コンディションに合わせた<br class="sp-only"><span class="bg01">5段階の温度調節が可能</span>
+                            </p>
+                            <p class="ibm-plex-mono-regular pc_p mb24">
+                                「温度が低い」「熱すぎない」<br class="sp-only">が自由に選べる！
+                            </p>
+                            <p class="ibm-plex-mono-regular pc_p">
+                                さらに撥水加工済みで、<br class="pc-only"><br class="sp-only">飲み物をこぼしても、屋外でも安心です
+                            </p>
+                        </div>
+
+                        <div class="point_left_text_outer_mb">
+                            <h3 class="ibm-plex-mono-bold pc_h3">
+                                USB給電-どこでも使える自由
+                            </h3>
+
+                            <p class="ibm-plex-mono-regular pc_p main_co mb24">
+                                <span class="bg01 ">専用アダプタは不要</span><br class="pc-only">
+                                モバイルバッテリーで、<span class="bg01">どこでも「マイ暖房」</span>
+                            </p>
+                            <p class="ibm-plex-mono-regular pc_p mb24">
+                                お手持ちのモバイルバッテリーで給電できるから、<br class="pc-only">移動中も屋外でも場所を選ばず使えます
+                            </p>
+                            <p class="ibm-plex-mono-regular pc_p mb24">
+                                USB給電なので、PCや車のUSBポートからも使用可能です
+                            </p>
+                            <p class="zen-kurenaido-regular po01 mb24">
+                                <span class="bg02">驚くほど身軽な防寒<br>
+                                    重い液体やコードに縛られるのは、もう終わり</span>
+                            </p>
+                            <p class="zen-kurenaido-regular po01 mb0">
+                                <span class="bg02">モバイルバッテリーひとつで、スマートに持ち運べる温もりを</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /point1 -->
+
+                <!-- point2 -->
+                <div class="point2_outer">
+                    <div class="point_right_outer flex-row-reverse">
+                        <div class="point_right_img">
+                            <img src="images/point_heading02.png" alt="2 多用途">
+                        </div>
+
+                        <div class="point_right_text_outer text-right waku_mr">
+                            <h3 class="ibm-plex-mono-bold pc_h3">
+                                どこでも、そこが「特等席」に
+                            </h3>
+                            <p class="ibm-plex-mono-regular pc_p">
+                                自宅やオフィスはもちろん、通勤、キャンプ、アウトドアまで<span
+                                    class="ibm-plex-mono-bold attention">場所を選ばず</span>、一瞬で極上の暖かさを提供します
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="purpose_outer">
+                        <div class="purpose_inner">
+                            <div class="purpose">
+                                <h3 class="pc_purpose_h3 zen-kurenaido-regular">Office</h3>
+                                <img src="images/pc_purpose_img01.png" alt="Office:デスクワークの足元や腰に薄いから目立たずスマート">
+                                <p class="pc_purpose_text ibm-plex-mono-regular">
+                                    デスクワークの足元や腰に<br>薄いから目立たずスマート
+                                </p>
+                            </div>
+
+                            <div class="purpose">
+                                <h3 class="pc_purpose_h3 zen-kurenaido-regular mt-60">Outdoor</h3>
+                                <img src="images/pc_purpose_img02.png" alt="Outdoor:デキャンプのシュラフ内や、スポーツ観戦の座布団に">
+                                <p class="pc_purpose_text ibm-plex-mono-regular">
+                                    キャンプのシュラフ内や、<br class="pc-only"><br class="sp-only">スポーツ観戦の座布団に
+                                </p>
+                            </div>
+
+                            <div class="purpose">
+                                <h3 class="pc_purpose_h3 zen-kurenaido-regular">Home</h3>
+                                <img src="images/pc_purpose_img03.png" alt="Home:家事をしながら、モバイルバッテリーで自由に動ける">
+                                <p class="pc_purpose_text ibm-plex-mono-regular mb0">
+                                    家事をしながら、<br>バイルバッテリーで<br class="pc-only"><br class="tb-only">自由に動ける
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="point2_summary_outer">
+                        <div class="point2_summary_inner">
+                            <p class="point2_summary_text zen-kurenaido-regular">
+                                使い方は<br class="sp-only">自由自在！<br>
+                                これ1枚で、<br>
+                                全身どこでも<br>「温もりスポット」
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- point2_whole_outer（PC版）-->
+                    <div class="point2_whole_outer_01">
+                        <img src="images/point2_whole_outer.png" alt="ハンドウォーマー、お腹・腰回り、足元、枕・座布団、広げて活用、寝具に">
+                    </div>
+
+                    <!-- point2_whole_outer（スマホ版）-->
+                    <div class="point2_whole_outer_02">
+                        <img src="images/point2_whole_outer_sp.png" alt="ハンドウォーマー、お腹・腰回り、足元、枕・座布団、広げて活用、寝具に">
+                    </div>
+                </div>
+                <!-- /point2 -->
+
+                <!-- point3 -->
+                <div class="point3_outer">
+                    <div class="point_left_outer flex-row">
+                        <div class="point_left_img">
+                            <img src="images/point_heading03.png" alt="3 省エネ">
+                        </div>
+
+                        <div class="point_left_text_outer waku_ml">
+                            <h3 class="ibm-plex-mono-bold pc_h3">
+                                究極の節電防寒
+                            </h3>
+                            <p class="ibm-plex-mono-regular pc_p">
+                                繰り返し使えて、お財布にも地球にも優しい<br>
+                                <span class="ibm-plex-mono-bold attention">8時間</span>使っても電気代はわずか<span
+                                    class="ibm-plex-mono-bold attention">1.5円！</span><br>
+                                電気代を気にせず一日中使い放題で使い捨てカイロより圧倒的にエコ
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- point3_img_outer（PC版）-->
+                    <div class="point3_img_outer_01">
+                        <img src="images/point3_img_inner.png" alt="場所を選ばない、電気代約1.5円、5段階調節、軽量、PSE認証済">
+                    </div>
+
+                    <!-- point3_img_outer（スマホ版）-->
+                    <div class="point3_img_outer_02">
+                        <img src="images/point3_img_inner_sp.png" alt="場所を選ばない、電気代約1.5円、5段階調節、軽量、PSE認証済">
+                    </div>
+                </div>
+                <!-- /point3 -->
+
+                <!-- point4 -->
+                <div class="point4_outer">
+                    <div class="point_right_outer flex-row-reverse">
+                        <div class="point_right_img">
+                            <img src="images/point_heading04.png" alt="4 超軽量・薄型">
+                        </div>
+
+                        <div class="point_right_text_outer text-right waku_mr">
+                            <h3 class="ibm-plex-mono-bold pc_h3">
+                                持ち運びもストレスフリー
+                            </h3>
+                            <p class="ibm-plex-mono-regular pc_p">
+                                本体わずか<span class="ibm-plex-mono-bold attention">約150g</span><br>※バッテリー踏含まず<br>
+                                バッグの隙間にスッと収まるスマート設計で、どこへでも連れて行けます
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="point4_img_outer">
+                        <div class="oint4_img_inner">
+                            <img src="images/point4_img_outer.png" alt="バッグの隙間にスッと収まるスマート設計">
+                        </div>
+                    </div>
+                </div>
+                <!-- /point4 -->
+
+                <!-- point5 -->
+                <div class="point5_outer">
+                    <div class="point_left_outer flex-row">
+                        <div class="point_left_img">
+                            <img src="images/point_heading05.png" alt="5 安心の品質">
+                        </div>
+
+                        <div class="point_left_text_outer waku_ml">
+                            <h3 class="ibm-plex-mono-bold pc_h3">
+                                PSE認証済み
+                            </h3>
+                            <p class="ibm-plex-mono-regular pc_p">
+                                国内の厳しい<span class="ibm-plex-mono-bold attention">安全基準をクリア</span><br>
+                                徹底した品質管理のもと、毎日安心してお使いいただけるクオリティを実現しました
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="point1_sub_outer">
+                        <div class="point1_sub_inner01 mb40">
+                            <img src="images/img.png" alt="PSE認証済み 国内の厳しい安全基準をクリア">
+                        </div>
+                        <div class="point1_sub_inner02">
+                            <div class="point1_sub_inner_sub_text01 mb40">
+                                <h3 class="ibm-plex-mono-bold pc_h3">自動オフタイマー搭載</h3>
+                                <p class="ibm-plex-mono-regular pc_p">
+                                    「ついうっかり」の消し忘れを防ぐタイマー機能
+                                    を搭載
+                                    就寝前のご使用や、お仕事に集中している時でも
+                                    安心です
+                                </p>
+                            </div>
+
+
+                            <div class="point1_sub_inner_sub_text02">
+                                <div class="point1_sub_img">
+                                    <img src="images/point1_sub_img.png" alt="業界最長クラスの長期保証1年保証載">
+                                </div>
+
+                                <div class="text">
+                                    <h3 class="ibm-plex-mono-bold pc_h3">
+                                        業界最長クラスの1年保証載
+                                    </h3>
+                                    <p class="ibm-plex-mono-regular pc_p">
+                                        自信があるからこその長期保証
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /point5 -->
+            </section>
+            <!-- /point -->
+
+            <!-- info -->
+            <section class="info mt-24">
+                <div class="pc_info_inner">
+                    <div class="pc_info_left">
+                        <h3 class="ibm-plex-mono-regular">本体のみ</h3>
+                        <img src="images/info_img.png" alt="本体のみ">
+                        <p class="info_left_pay">
+                            <span class="orelega-one-regular payBig">2,580</span>円（税込）
+                        </p>
+                        <div class="info_btn anim-box mov">
+                            <a href="#" target="_blank">お申込みはこちら</a>
+                        </div>
+                    </div>
+                    <div class="pc_info_right">
+                        <h3>バッテリーセット</h3>
+                        <img src="images/info_img_set.png" alt="バッテリーセット">
+                        <p class="info_right_pay">
+                            <span class="orelega-one-regular payBig">3,580</span>円（税込）
+                        </p>
+                        <div class="info_btn anim-box mov">
+                            <a href="#" target="_blank">お申込みはこちら</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /info -->
+
+            <!-- specification_outer -->
+            <section id="specification_outer" class="specification_outer">
+                <h2 class="kiwi-maru-medium pc_h2">商品仕様</h2>
+                <div class="specification_inner">
+                    <table class="specification_table">
+                        <tr>
+                            <th>本体サイズ</th>
+                            <td>約40cm&#215;32cm&#215;厚さ1cm<br class="sp-only">（展開時）</td>
+                        </tr>
+                        <tr>
+                            <th>本体重量</th>
+                            <td>約150g</td>
+                        </tr>
+                        <tr>
+                            <th>本体材質</th>
+                            <td>ポリエステル（撥水加工）</td>
+                        </tr>
+                        <tr>
+                            <th>本体材質</th>
+                            <td>ポリエステル（撥水加工）</td>
+                        </tr>
+                        <tr>
+                            <th>ヒーター</th>
+                            <td>グラフェン繊維ヒーター</td>
+                        </tr>
+                        <tr>
+                            <th>セット内容</th>
+                            <td>
+                                ・ぬくもりシート本体&#215;1<br>
+                                ・給電用内蔵USBケーブル&#215;1<br>
+                                ・取扱説明書&#215;1
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>安心保証</th>
+                            <td>商品到着日より<br class="sp-only">「1年間」の安心保証付</td>
+                        </tr>
+                        <tr>
+                            <th>カラー</th>
+                            <td>グレー<br>
+                                ブラウン
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <!-- /specification_outer -->
+
+            <!-- voice_outer -->
+            <section id="voice_outer" class="voice_outer">
+                <h2 class="kiwi-maru-medium pc_h2">お客様の声</h2>
+                <div class="voice_inner">
+                    <div class="voice">
+                        <div class="sample-wrap pc_voice01">
+                            <div class="box pc_voice_left_outer">
+                                <div class="pc_voice_img">
+                                    <img src="images/img01.png" alt="「デスクワークの強い味方です!」30代・事務職">
+                                </div>
+                                <div class="desc pc_voice_text">
+                                    <p class="pc_voice_h3 ibm-plex-mono-bold">「デスクワークの強い味方です!」</p>
+                                    <div class="pc_voice_sub">30代・事務職</div>
+                                    <p class="pc_voice_text sawarabi-gothic-regular sp_tl">
+                                        オフィスが冷えるのですが、ひざ掛けの下に忍ばせると、<span class="pc_voice_text_fw">まるで自分専用のこたつみたい！</span>
+                                        薄いので、離席する時もバッグにサッと隠せて重宝しています。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="box pc_voice_left_outer">
+                                <div class="pc_voice_img_right">
+                                    <img src="images/img02.png" alt="「お湯を沸かす手間がないのが最高」40代・主婦">
+                                </div>
+                                <div class="desc pc_voice_text pc_voice_img_left">
+                                    <p class="pc_voice_h3 ibm-plex-mono-bold">「お湯を沸かす手間がないのが最高」</p>
+                                    <div class="pc_voice_sub">40代・主婦</div>
+                                    <p class="pc_voice_text sawarabi-gothic-regular sp_tl">
+                                        以前は充電式の重い湯たんぽを使っていましたが、これはとにかく<span
+                                            class="pc_voice_text_fw ibm-plex-mono-bold">軽くて驚きました。</span>
+                                        キッチンで立ち仕事をする時、腰に巻くと本当にポカポカして楽になります。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="box c_voice_left_outer_s">
+                                <div class="pc_voice_img">
+                                    <img src="images/img03.png" alt="「キャンプの寝袋で大活躍」20代・アウトドア好き">
+                                </div>
+                                <div class="desc pc_voice_text">
+                                    <p class="pc_voice_h3 ibm-plex-mono-bold"> 「キャンプの寝袋で大活躍」</p>
+                                    <div class="pc_voice_sub">20代・アウトドア好き</div>
+                                    <p class="pc_voice_text sawarabi-gothic-regular sp_tl">
+                                        冬キャンプの就寝時に使いました。
+                                        <span
+                                            class="pc_voice_text_fw ibm-plex-mono-bold ibm-plex-mono-bold">モバイルバッテリーで使える</span>ので、朝までしっかり
+                                        暖かかったです。撥水加工なので、外で汚れてもサッと拭けるのがいいですね。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /voice_outer -->
+
+            <!-- q-a -->
+            <section id="q-a" class="q-a">
+                <h2 class="kiwi-maru-medium pc_h2">Q&A</h2>
+                <div class="q-a_outer">
+                    <details class="q-a_inner01" open>
+                        <summary class="pc_question_text_q"> <span class="q_b flex-item1">Q1</span>
+                            <span class="flex-item2">お手持ちのモバイルバッテリーでも使えますか？</span>
+                        </summary>
+                        <p>
+                            <span class="a_b">A1</span>はい、USB（Type-A）給電に対応していれば可能です。5V/2A以上の出力があるバッテリーを推奨しております。
+                        </p>
+                    </details>
+                    <details class="q-a_inner01">
+                        <summary class="pc_question_text_q"><span class="q_b flex-item1">Q2</span><span
+                                class="flex-item2">洗濯はできますか？</span></summary>
+                        <p><span class="a_b">A2</span>軽い汚れは拭き取りでOKです。
+                            本製品は撥水加工を施しておりますので、軽い汚れは濡れたタオルなどで拭き取ってください。
+                            ※水洗いの可否については、商品付属の説明書をご確認ください（または：手洗いが可能です。必ずUSBプラグを保護してから洗ってください）。</p>
+                    </details>
+                    <details class="q-a_inner01">
+                        <summary class="pc_question_text_q"><span class="q_b flex-item1">Q3</span><span
+                                class="flex-item2">低温やけどが心配です。</span></summary>
+                        <p><span class="a_b">A3</span>本製品は5段階の温度調節機能を備えて
+                            おります。長時間ご使用になる場合は、低い温度設定にし、
+                            厚手の服の上から使用するなど、直接肌に触れないようご注意ください。</p>
+                    </details>
+                    <details class="q-a_inner01">
+                        <summary class="pc_question_text_q"><span class="q_b flex-item1">Q4</span><span
+                                class="flex-item2">1.5円という電気代は本当ですか？</span></summary>
+                        <p><span class="a_b">A4</span>はい、非常に経済的です！
+                            一般的なモバイルバッテリー（10,000mAh）を使用し、中温設定で約8時間使用
+                            した場合の計算に基づいています。非常に経済的にお使いいただけます。</p>
+                    </details>
+                    <details class="q-a_inner01">
+                        <summary class="pc_question_text_q"><span class="q_b flex-item1">Q5</span><span
+                                class="flex-item2">どれくらいで暖かくなりますか？</span></summary>
+                        <p><span
+                                class="a_b">A5</span>わずか数秒で温もりを感じ始めます！スイッチを入れてから数秒で熱を感じ始め、約30秒～1分ほどで設定温度まで安定して暖かくなります。お湯を沸かす時間は必要ありません。
+                        </p>
+                    </details>
+                    <details class="q-a_inner01">
+                        <summary class="pc_question_text_q"><span class="q_b flex-item1">Q6</span><span
+                                class="flex-item2">うっかり電源を切り忘れてしまいそうで心配です。</span></summary>
+                        <p><span
+                                class="a_b">A6</span>ご安心ください！「自動オフタイマー」を搭載しているため、一定時間が経過すると自動で電源が切れる設計になっています。「ついうっかり」の消し忘れはもちろん、心地よさに負けてつい「寝落ち」してしまっても大丈夫。安全性にこだわった、毎日安心して使える仕様です。
+                        </p>
+                    </details>
+
+
+                </div>
+            </section>
+            <!-- /q-a -->
+
+            <!-- review_present_outer -->
+            <section id="review_present_outer" class="review_present_outer">
+                <h2 class="kiwi-maru-medium pc_h2">レビュープレゼント</h2>
+                <div class="review_present_innner">
+                    <div class="review_present">
+                        <div class="quote zen-kurenaido-regular">
+                            今だけ
+                        </div>
+                        <h3 class="review_present_h3 zen-kurenaido-regular">レビュー投稿<br>キャンペーン実施中！
+                        </h3>
+                    </div>
+
+
+                    <div class="review_present_text">
+                        <div class="review_present_text_inner">
+                            <p class="ibm-plex-mono-regular">
+                                <span class="review_present_text_b ibm-plex-mono-bold">持ち運ぶなら<br>カバーは必須</span>
+                                それが<span class="review_present_text_b ibm-plex-mono-bold">今なら無料！</span>
+                                ※数に限りがございます<br class="sp-only">のでお早めに！<br>プレゼントは<br class="sp-only">どちらか1色となります。
+                            </p>
+                        </div>
+                        <div class="review_present_img">
+                            <img src="images/review_present_img.png" alt="持ち運ぶならカバーは必須。それが今なら無料！※数に限りがございますのでお早めに！">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /review_present_outer -->
+
+            <!-- guarantee_outer-->
+            <section id="guarantee_outer" class="guarantee_outer mask_n02">
+                <h2 class="kiwi-maru-medium pc_h2">1年間保証</h2>
+                <div class="guarantee_inner mt-24">
+                    <h3 class="guarantee_h3 zen-kurenaido-regular">
+                        商品到着からたっぷり<br>
+                        <span class="guarantee_big">1年間の長期保証</span><br>
+                        毎日使うものだから、<br>
+                        安心をお届けします！
+                    </h3>
+                </div>
+            </section>
+            <!--/guarantee_outer-->
+
+            <!--color_outer-->
+            <section class="color">
+                <div class="color_pc_info_outer">
+                    <h3 class="ibm-plex-mono-regular">
+                        カラー
+                    </h3>
+                </div>
+
+                <div class="color_inner">
+                    <div class="color_left">
+                        <div class="color_img">
+                            <img src="images/color_01.png" alt="グレー">
+                        </div>
+                        <p class="color_left_text ibm-plex-mono-regular">グレー</p>
+                    </div>
+
+                    <div class="color_right">
+                        <div class="color_img">
+                            <img src="images/color_02.png" alt="ブラウン">
+                        </div>
+                        <p class="color_right_text ibm-plex-mono-regular">ブラウン</p>
+                    </div>
+                </div>
+            </section>
+            <!--/color_outer-->
+
+            <!-- info -->
+            <section class="info">
+                <div class="pc_info_inner">
+                    <div class="pc_info_left">
+                        <h3 class="ibm-plex-mono-regular">本体のみ</h3>
+                        <img src="images/info_img.png" alt="本体のみ">
+                        <p class="info_left_pay">
+                            <span class="orelega-one-regular payBig">2,580</span>円（税込）
+                        </p>
+                        <div class="info_btn anim-box mov">
+                            <a href="#" target="_blank">お申込みはこちら</a>
+                        </div>
+                    </div>
+                    <div class="pc_info_right">
+                        <h3>バッテリーセット</h3>
+                        <img src="images/info_img_set.png" alt="バッテリーセット">
+                        <p class="info_right_pay">
+                            <span class="orelega-one-regular payBig">3,580</span>円（税込）
+                        </p>
+                        <div class="info_btn anim-box mov">
+                            <a href="#" target="_blank">お申込みはこちら</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /info -->
+
+            <!--message_outer-->
+            <section id="message_outer" class="message_outer">
+                <h2 class="kiwi-maru-medium pc_h2">
+                    メッセージ
+                </h2>
+
+                <div class="message_inner">
+                    <div class="last_message_outer">
+                        <p class="last_message_text01 zen-kurenaido-regular mb24">
+                            この暖かさ、<br class="sp-only">もう手放せなくなる<br>一度使えば、その<br class="sp-only">「秒速発熱」の虜に
+                        </p>
+
+                        <p class="last_message_text01 zen-kurenaido-regular mb24">
+                            かさばる湯たんぽや、<br class="sp-only">重い暖房器具は<br>もういりません
+                        </p>
+
+                        <p class="last_message_text01 zen-kurenaido-regular mb24">
+                            「いつでも、どこでも、<br>スイッチひとつで<br class="sp-only">極上のポカポカ」
+                        </p>
+
+                        <p class="last_message_text01 zen-kurenaido-regular mb24">
+                            あなたの日常を<br class="sp-only">アップデートする<br>次世代の暖房体験を、<br>今すぐその手で<br class="sp-only">実感してください
+                        </p>
+
+                        <p class="last_message_text02 zen-kurenaido-regular">
+                            自分への<br class="sp-only">プレゼントに<br>大切な人への<br class="sp-only">贈り物に<br>選ばれています
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!--/message_outer-->
+
+        </section>
+
+        <section id="right">
+            <div class="menu_outer_right">
+                <div class="application">
+                    <div class="circle"><a href="#">お申込みは<br>こちら</a></div>
+                    <div class="application_img"><a href="#review_present_outer"><img src="images/application_img.jpg"
+                                alt="レビュープレゼント"></a></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--footer-->
+    <footer id="footer" class="footer_outer">
+        <div class="footer_inner">
+            <small class="copyright ibm-plex-mono-regular">&copy;2026 Chaleur Durable.com</small>
+        </div>
+    </footer>
+    <!--/footer-->
+
+    <div id="page_top"><a href="#"></a></div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/85188/jquery.wavify.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"></script>
+
+
+    <script>
+        /* 背景動く */
+        bubbly({
+            colorStart: '#FFF9E0',
+            colorStop: '#FFF2BB',
+            blur: 20,
+            compose: 'source-over',
+            bubbleFunc: () => `hsla(${Math.random() * 30}, 100%, 100%, .3)`
+        });
+    </script>
+</body>
+
+</html>
